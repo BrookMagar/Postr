@@ -1,0 +1,29 @@
+{
+  "name": "passportapp",
+  "version": "1.0.0",
+  "description": "Passport Local Auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brook Magar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.37.6",
+    "sqlite3": "^3.1.13"
+  }
+}
